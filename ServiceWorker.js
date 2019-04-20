@@ -17,7 +17,7 @@ var filesToCache = [
     '/_framework/blazor.server.js',
     //Our additional files
     '/manifest.json',
-    'serviceworker.js',
+    '/serviceworker.js',
     '/icons/icon-192x192.png',
     '/icons/icon-512x512.png',
     //Content

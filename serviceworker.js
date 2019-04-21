@@ -21,8 +21,8 @@ var filesToCache = [
     '/ubiquitous-memory/icons/icon-192x192.png',
     '/ubiquitous-memory/icons/icon-512x512.png',
     //Content
-    '/ubiquitous-memory/_content',
-    '/ubiquitous-memory/_content/Blazored.LocalStorage',
+    //'/ubiquitous-memory/_content',
+    //'/ubiquitous-memory/_content/Blazored.LocalStorage',
     '/ubiquitous-memory/_content/Blazored.LocalStorage/blazored.LocalStorage.js',
     '/ubiquitous-memory/_content/Blazored.LocalStorage/blazored.LocalStorage.js.map',
     '/ubiquitous-memory/_content/Blazored.LocalStorage/blazored.LocalStorage.ts',

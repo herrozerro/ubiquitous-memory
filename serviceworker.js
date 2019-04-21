@@ -44,14 +44,14 @@ var filesToCache = [
     '/ubiquitous-memory/_framework/_bin/System.Net.Http.dll',
     '/ubiquitous-memory/_framework/_bin/Blazored.LocalStorage.dll',
     //Pages
-    '/ubiquitous-memory/counter',
-    '/ubiquitous-memory/todo',
-    '/ubiquitous-memory/fetchdata',
+    //'/ubiquitous-memory/counter',
+    //'/ubiquitous-memory/todo',
+    //'/ubiquitous-memory/fetchdata',
     //The compiled project .dll's
     '/ubiquitous-memory/_framework/_bin/BlazorDemo.dll',
     '/ubiquitous-memory/_framework/_bin/BlazorDemo.pdb'
 ];
-console.log("This is service worker installing");
+
 self.addEventListener('install', function (e) {
     console.log('[ServiceWorker] Install');
     e.waitUntil(
@@ -61,11 +61,11 @@ self.addEventListener('install', function (e) {
         })
     );
 });
-console.log("This is service worker activating");
+
 self.addEventListener('activate', event => {
     event.waitUntil(self.clients.claim());
 });
-console.log("This is service worker fetching");
+
 self.addEventListener('fetch', event => {
     event.respondWith(
         caches.match(event.request, { ignoreSearch: true }).then(response => {

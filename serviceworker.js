@@ -44,9 +44,9 @@ var filesToCache = [
     './_framework/_bin/System.Net.Http.dll',
     './_framework/_bin/Blazored.LocalStorage.dll',
     //Pages
-    './counter',
-    './todo',
-    './fetchdata',
+    //'./counter',
+    //'./todo',
+    //'./fetchdata',
     //The compiled project .dll's
     './_framework/_bin/BlazorDemo.dll',
     './_framework/_bin/BlazorDemo.pdb'

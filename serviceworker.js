@@ -21,8 +21,8 @@ var filesToCache = [
     './icons/icon-192x192.png',
     './icons/icon-512x512.png',
     //Content
-    './_content',
-    './_content/Blazored.LocalStorage',
+    //'./_content',
+    //'./_content/Blazored.LocalStorage',
     './_content/Blazored.LocalStorage/blazored.LocalStorage.js',
     './_content/Blazored.LocalStorage/blazored.LocalStorage.js.map',
     './_content/Blazored.LocalStorage/blazored.LocalStorage.ts',
